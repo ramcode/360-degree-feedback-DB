@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5B04118-245D-8B0D-56D9-181B720CFF7F" containerWithKeyObject="9C74CF32-EF3E-5A4D-243F-A41CBDDC4CF8" localFKIndex="9FD189A3-F2D3-E442-33F3-FBF3501948BC" name="SURVEY_QUESTIONS_SURVEY_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:40:48 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C43C7B3-F0F1-A89D-EB8C-538769F4F008</referredTableID>
+<keyObject>2A3AA2E6-D6A6-4B1D-51F4-6A60EA7968B9</keyObject>
+<referredKeyID>2A3AA2E6-D6A6-4B1D-51F4-6A60EA7968B9</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

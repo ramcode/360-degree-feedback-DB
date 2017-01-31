@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="294E372E-61AA-759F-5B63-87CFD31D5D2F" name="ORGANISATIONS">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:24:47 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>ORGS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORG_ID" id="7D125D60-9A87-6B33-90C1-69139A8480F9">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:26:47 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_NAME" id="6E4A2398-48A8-4348-7EA1-118CA1238F67">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:29:57 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_CODE" id="F2B1503F-9740-9D60-E0B1-EFC664095589">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:30:22 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48BE7FA7-00E4-8554-3C94-B177B42DA1BA" name="ORGANISATIONS_PK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:30:55 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D125D60-9A87-6B33-90C1-69139A8480F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

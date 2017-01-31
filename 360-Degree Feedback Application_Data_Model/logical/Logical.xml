@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="06A2A872-FAA6-9AEA-E870-4273D8967D2E" mainViewID="4C92CC59-1500-4876-0255-E129ACEAAE61">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-19 19:20:33 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

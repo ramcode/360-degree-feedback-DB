@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C74CF32-EF3E-5A4D-243F-A41CBDDC4CF8" name="SURVEY_QUESTIONS">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:28:35 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SURVEY_ID" id="D6EBF5A9-EE2B-DB5D-56F6-02F84D3CC8D6">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:29:03 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B04118-245D-8B0D-56D9-181B720CFF7F" referredColumn="CCCDF79C-BFC8-F181-7525-AC7554FDBFBE"/>
+</associations>
+</Column>
+<Column name="QUESTION_ID" id="58A21B7D-8007-782B-F5E7-4C97597C130B">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:29:21 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B5501FF-5BB4-D70B-F7F0-DBFD36032599" referredColumn="D716566B-D151-4DC2-BD0E-1A859AE5AC04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86A4FEBC-C65C-EB7B-80E1-69553BE589C7" name="SURVEY_QUESTIONS_PK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:40:07 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6EBF5A9-EE2B-DB5D-56F6-02F84D3CC8D6"/>
+<colUsage columnID="58A21B7D-8007-782B-F5E7-4C97597C130B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FD189A3-F2D3-E442-33F3-FBF3501948BC" name="SURVEY_QUESTIONS_SURVEY_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:40:48 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6EBF5A9-EE2B-DB5D-56F6-02F84D3CC8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C464717D-236B-A476-7832-B98981829288" name="SURVEY_QUESTIONS_QUESTIONS_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:10:53 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58A21B7D-8007-782B-F5E7-4C97597C130B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

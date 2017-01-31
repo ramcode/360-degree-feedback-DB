@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BD3DD0A-976A-0BCF-7B52-509B08CB7BD6" name="ORG_QUESTIONS">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:03:36 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORG_ID" id="57384139-AA98-D67E-2807-48345BE21018">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:04:09 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58288768-A11F-6DAB-A670-E4962165D3CA" referredColumn="7D125D60-9A87-6B33-90C1-69139A8480F9"/>
+</associations>
+</Column>
+<Column name="QUESTION_ID" id="5C1EB01A-D21C-549E-C75A-1EB37BA01F97">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:04:22 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35463AD2-09E4-1C56-A15F-897A3007C97E" referredColumn="D716566B-D151-4DC2-BD0E-1A859AE5AC04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3794986-412D-3D13-7008-D786B2836FB2" name="ORG_QUESTIONS_PK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:05:14 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57384139-AA98-D67E-2807-48345BE21018"/>
+<colUsage columnID="5C1EB01A-D21C-549E-C75A-1EB37BA01F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D86E0325-C66C-6906-E6FE-A5343F1D2E1E" name="ORG_QUESTIONS_ORGANISATIONS_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:05:14 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57384139-AA98-D67E-2807-48345BE21018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE7736C3-1A81-D0F8-DA56-D3ED14081DC3" name="ORG_QUESTIONS_QUESTIONS_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:05:14 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1EB01A-D21C-549E-C75A-1EB37BA01F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

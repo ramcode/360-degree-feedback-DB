@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D972B248-5D61-F191-22A7-F04E8C09AA35" name="FEEDBACK_RESPONSES">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:20:39 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FEEDBACK_ID" id="7361ECB5-BC7F-3842-685A-6F403D98979A">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:21:17 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A8693DC-9D81-CA9F-9C93-8D97FD271B4D" referredColumn="7E80269D-F85F-5F64-C56E-B65E84DCABC8"/>
+</associations>
+</Column>
+<Column name="QUESTION_ID" id="C2F4BA01-F99B-05A6-2823-6E7B297C8009">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:22:04 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CA70BA5-6B64-FE05-8AF4-8A9233DC3A7B" referredColumn="D716566B-D151-4DC2-BD0E-1A859AE5AC04"/>
+</associations>
+</Column>
+<Column name="RESPONSE" id="C6E96AB4-8AF8-B79C-A398-0AC8447AAB99">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 02:23:21 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A093C7B5-A6CC-AB6D-D652-495FB62D7ABB" name="FEEDBACK_RESPONSES_PK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:55:19 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7361ECB5-BC7F-3842-685A-6F403D98979A"/>
+<colUsage columnID="C2F4BA01-F99B-05A6-2823-6E7B297C8009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="958126FF-37EB-8C55-F4C4-9AC242AEE7A3" name="FEEDBACK_RESP_FEEDBACK_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 03:55:19 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7361ECB5-BC7F-3842-685A-6F403D98979A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0FCDBE3-B256-3E7F-2598-2037418CB5E0" name="FEEDBACK_RESP_QUESTIONS_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 05:31:37 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F4BA01-F99B-05A6-2823-6E7B297C8009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

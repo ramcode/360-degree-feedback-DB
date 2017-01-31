@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="360-Degree Feedback Application_Data_Model" id="768E7619-B581-EE96-3147-EC611B929E9B" version="3.5">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-19 19:20:33 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>768E7619-B581-EE96-3147-EC611B929E9B</designId>
+</OSDM_Design>

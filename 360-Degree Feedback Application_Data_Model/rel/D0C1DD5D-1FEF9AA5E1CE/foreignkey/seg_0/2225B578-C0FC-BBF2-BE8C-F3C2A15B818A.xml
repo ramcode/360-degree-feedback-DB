@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2225B578-C0FC-BBF2-BE8C-F3C2A15B818A" containerWithKeyObject="7F5DE1F3-F417-CF14-645F-F9DD136EA7E6" localFKIndex="CF96067B-F12F-566E-933A-7ADE669EFC66" name="FEEDBACK_USER_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-24 16:30:36 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03C56E77-BF60-45EA-3DF2-C94117E9DFF4</referredTableID>
+<keyObject>2CD00CBF-B943-B106-90A7-EA57A39085AC</keyObject>
+<referredKeyID>2CD00CBF-B943-B106-90A7-EA57A39085AC</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03C56E77-BF60-45EA-3DF2-C94117E9DFF4" name="USER">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:44:57 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>USR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="67E5C414-5DBC-26B1-738E-25B8ED125272">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:45:25 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="77F5F84A-35B6-DE8E-2A7A-C978F1024631">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:45:42 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_ID" id="F1A41EA0-EE3B-F3EC-2F58-D791A26D0142">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:46:39 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DA9D849-CBEF-9E24-6EB5-999C2C65EDAF" referredColumn="7D125D60-9A87-6B33-90C1-69139A8480F9"/>
+</associations>
+</Column>
+<Column name="DOB" id="DC9F77D5-37A3-CE61-B25A-59273E2E725B">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:49:53 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CD00CBF-B943-B106-90A7-EA57A39085AC" name="USER_PK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:51:05 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67E5C414-5DBC-26B1-738E-25B8ED125272"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6357C96-353A-98D1-E501-4F2ED0DA78DF" name="USER_ORGANISATIONS_FK">
+<createdBy>VenkataRamesh</createdBy>
+<createdTime>2017-01-20 01:51:05 UTC</createdTime>
+<ownerDesignName>360-Degree Feedback Application_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1A41EA0-EE3B-F3EC-2F58-D791A26D0142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
